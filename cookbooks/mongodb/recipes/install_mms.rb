@@ -5,10 +5,10 @@
 
 # NOTE: Environment names are cap sensitive
 API_KEYS = {
-  "EnvName" => ""
+  "OR_ISE" => "c6677b83839243cfedecba425b5281a8"
 }
 SECRET_KEYS = {
-  "EnvName" => ""
+  "OR_ISE" => "bff0ed1f269bc41fc0252553eb21830b"
 }
 # setting API_KEYS and SECRET_KEYS for your environment effectively enables this recipe
 if API_KEYS.has_key? @node[:environment][:name] and SECRET_KEYS.has_key? @node[:environment][:name]
